@@ -1,3 +1,3 @@
-name = "groupme-jokebot"
+name = "groupme-jokebot1"
 main = "src/worker.js"
 compatibility_date = "2025-09-13"
