@@ -1,3 +1,10 @@
 name = "groupme-jokebot"
 main = "src/worker.js"
 compatibility_date = "2025-09-13"
+
+[observability.logs]
+enabled = true
+
+[triggers]
+# Top of every hour (UTC)
+crons = ["0 * * * *"]
